@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Welcome to Vue</title>
+  <title>Welcome to Vuetify</title>
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet" type="text/css">
   <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet" type="text/css"></link>
   <link href="styles.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
   <script src="https://unpkg.com/vuetify/dist/vuetify.min.js"></script>
 </head>
@@ -22,7 +23,11 @@
       <main>
         <v-content>
           <v-container :fluid="true">
-            <h1 class="vuetify">Vuetify</h1>
+            <v-card class="secondary" height="200px">
+              <v-card-text>
+                <img src="v.png">
+              </v-card-text>
+            </v-card>
             <p>Welcome to the Vuetify Webpack-Simple Template</p>
             <h2>Important Links</h2>
             <div class="intro">
