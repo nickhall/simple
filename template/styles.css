@@ -4,7 +4,7 @@
   margin: 4rem 0;
 }
 
-.card {
+.card.card--intro {
   margin-top: -1rem;
   margin-bottom: 5rem;
 }
