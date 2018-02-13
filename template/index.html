@@ -14,7 +14,7 @@
   <div id="app">
     <v-app>
       <v-navigation-drawer
-        persistent
+        fixed
         :mini-variant="miniVariant"
         :clipped="clipped"
         clipped-left
@@ -69,6 +69,7 @@
         </v-content>
       </main>
       <v-navigation-drawer
+        fixed
         temporary
         :right="right"
         v-model="rightDrawer"
@@ -114,7 +115,7 @@
     new Vue({
       el: '#app',
       data: {
-        clipped: false,
+        clipped: true,
         drawer: true,
         fixed: false,
         items: [
